@@ -1,0 +1,23 @@
+{
+  "name": "@ekliptor/PromptCash",
+  "version": "1.0.0",
+  "description": "TypeScript code for the PromptCash WordPress plugin.",
+  "main": "build/bundle.js",
+  "private": false,
+  "author": "Ekliptor",
+  "license": "GPL",
+  "scripts": {
+    "watch": "webpack --progress --watch"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.39",
+    "@types/jquery": "^2.0.46",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "^8.0.14",
+    "typescript": "3.9.5",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0"
+  }
+}
